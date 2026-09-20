@@ -2,13 +2,7 @@
 
 A clean, modern, and responsive weather forecasting interface built with pure HTML, CSS, and Vanilla JavaScript. The dashboard allows users to search for cities worldwide, retrieve real-time meteorological conditions, toggle temperature units, inspect extended 5-day forecasts, and review environmental metrics.
 
-## Live Application
-
-- Live Application URL: [Open Weather Dashboard](https://ais-pre-4fu2slawt23cw2wumeskfr-494380727442.asia-southeast1.run.app)
-
----
-
-## Features
+# Features
 
 - City Search: Instant city query with form submission and keyboard Enter support for all cities in Pakistan and worldwide.
 - Current Weather Information:
@@ -30,9 +24,9 @@ A clean, modern, and responsive weather forecasting interface built with pure HT
   - Graceful error banner for invalid city names, network interruptions, and API errors
   - Automatic fallback to prevent crashes
 
----
 
-## Visual Design & Theme
+
+# Visual Design & Theme
 
 Strictly adheres to the required design specifications:
 - Primary Color: #0284C7 (Sky Blue)
@@ -46,18 +40,16 @@ Strictly adheres to the required design specifications:
 - Typography: Inter & system-ui
 - Responsive Design: Fluid layout adapting seamlessly down to 375px mobile screens up to wide desktop displays.
 
----
 
-## Technology Stack
+# Technology Stack
 
 - Markup: Semantic HTML5
 - Styling: Vanilla CSS (Custom properties, Flexbox, Grid, fluid typography)
 - Scripting: Vanilla JavaScript (ES Modules, fetch, async/await, DOM API)
 - Dependencies: Zero runtime client framework dependencies (no React, Vue, or Angular).
 
----
 
-## Public Weather API & API Key Configuration
+# Public Weather API & API Key Configuration
 
 The dashboard supports two public weather providers:
 
@@ -77,7 +69,7 @@ You can configure your OpenWeatherMap API key in two ways:
 3. Enter your 32-character API key obtained from openweathermap.org.
 4. Click Save Settings. The key is stored locally in your browser's localStorage and will persist across sessions.
 
-#### Option B: In Code Configuration
+# Option B: In Code Configuration
 Open js/config.js and set your key:
 ```javascript
 export const CONFIG = {
@@ -88,15 +80,13 @@ export const CONFIG = {
 };
 ```
 
----
+# Running Locally
 
-## Running Locally
-
-### Prerequisites
+# Prerequisites
 - Node.js (v18 or higher recommended)
 - npm
 
-### Installation Steps
+# Installation Steps
 
 1. Clone or download the repository:
    ```bash
@@ -119,7 +109,7 @@ export const CONFIG = {
    http://localhost:3000
    ```
 
-### Building for Production
+# Building for Production
 
 To create an optimized production build:
 ```bash
@@ -127,9 +117,8 @@ npm run build
 ```
 The compiled, self-contained static assets will be output to the dist directory, ready to deploy to any static host (Vercel, Netlify, GitHub Pages, or Cloud Run).
 
----
 
-## Project Structure
+# Project Structure
 
 ```
 ├── css/
@@ -147,8 +136,7 @@ The compiled, self-contained static assets will be output to the dist directory,
 └── README.md                # Project documentation
 ```
 
----
 
-## License
+# License
 
 MIT License
