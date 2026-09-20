@@ -59,11 +59,11 @@ The dashboard supports two public weather providers:
 2. OpenWeatherMap (Optional):
    - Can be used by configuring an OpenWeatherMap API key.
 
-### Configuring an OpenWeatherMap API Key
+# Configuring an OpenWeatherMap API Key
 
 You can configure your OpenWeatherMap API key in two ways:
 
-#### Option A: In-App UI (Recommended)
+# Option A: In-App UI (Recommended)
 1. Click the API Settings button in the top navigation bar.
 2. Select OpenWeatherMap in the provider dropdown.
 3. Enter your 32-character API key obtained from openweathermap.org.
