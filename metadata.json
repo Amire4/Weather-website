@@ -1,0 +1,6 @@
+{
+  "name": "Weather Dashboard",
+  "description": "A clean, modern weather forecasting dashboard to search cities and view real-time weather, forecasts, and environmental metrics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
